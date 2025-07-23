@@ -44,7 +44,11 @@
 
   <!-- Template do Formulário -->
   <template id="form-template">
-    <div class="mb-3">
+    <div class="mb-2">
+      <label for="nome" class="form-label">Nome</label>
+      <input type="text" class="form-control" name="nome" required>
+    </div>
+    <div class="mb-1">
       <label for="cpf" class="form-label">CPF</label>
       <input type="text" class="form-control" name="cpf" required>
     </div>
@@ -55,6 +59,14 @@
     <div class="mb-3">
       <label for="telefone" class="form-label">Telefone</label>
       <input type="tel" class="form-control" name="telefone" required>
+    <div class="mb-2">
+      <label for="cidade" class="form-label">Cidade</label>
+      <input type="text" class="form-control" name="cidade" required>
+    </div>
+    <div class="mb-1">
+      <label for="cep" class="form-label">CEP</label>
+      <input type="text" class="form-control" name="cep" required>
+    </div>
     </div>
   </template>
 
